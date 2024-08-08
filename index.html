@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logotipo" src="assets/logo.png" alt="Logotipo Alura" style="max-width:100%;height:auto;">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="textArea" cols="20" rows="5" placeholder="Digite o texto"></textarea>
+    
+            <div class="informacao">
+                <h6>*Apenas letras minúsculas e sem acento</h6>
+            </div>
+    
+            <div class="botoes">
+                <button class="bt-encriptar" onclick="btEncriptar()">Criptografar</button>
+                <button class="bt-descriptar" onclick="btDescriptar()">Descriptografar</button>
+            </div>
+        </section>
+            
+        <section>
+            <textarea class="mensagem" cols="20" rows="5"></textarea>
+    
+            <button class="bt-copiar">Copiar</button>
+        </section>
+    </main>
+    
+    <script src="app.js"></script>
+    
+
+</body>
+
+<div class="rodape">
+    <footer class="footer">
+        <h6>Desenvolvido por Lai Hortencio. </h6>
+    </footer>
+</div>
+
+</html>

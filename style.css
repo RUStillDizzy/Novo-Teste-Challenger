@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter" sans-serif;
+    }
+    
+    .logotipo {
+    padding: 2% 2%;
+    }
+    
+    main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 3% 3% 3% 3%;
+    }
+    
+    body {
+    background-image: url(assets/freepik_5_23_12_21_9.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+    
+    .textArea {
+    width: 400px;
+    height: 350px;
+    background-color: #176B87;
+    font-size: 20px;
+    border-radius: 12px;
+    }
+    
+    ::placeholder {color: white;}
+    .text-area :focus {
+    outline:none;
+    }
+    
+    
+    .mensagem {
+    width: 400px;
+    height: 350px;
+    background-color: #176B87;
+    background-image: url(assets/icone\ code\ programas.gif);
+    background-size: 100px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    font-family: "Inter" sans-serif;
+    }
+    
+    .informacao {
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    color: #c6fbfb;
+    padding: 2% 2% 2% 2%;
+    }
+    
+    .botoes {
+    font-family: "Inter" sans-serif;
+    justify-content: space-around;
+    display: flex;
+    padding: 2% 5% 2% 5%;
+    }
+    
+    .bt-encriptar {
+    background-color: #103647;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 1em;
+    padding: 15px 32px;
+    border-radius: 12px;
+    border-style: groove;
+    }
+    
+    .bt-descriptar {
+    background-color: #103647;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 1em;
+    padding: 15px 32px;
+    border-radius: 12px;
+    border-style: groove;
+    }
+    
+    .section2 {
+    display: contents;
+    justify-content: space-evenly;
+    }
+    
+    .bt-copiar {
+    flex-direction: column-reverse;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #0b2632;
+    padding: 15px 32px;
+    border-radius: 12px;
+    border-style: groove;
+    }
+    
+    
+    .footer {
+    background-color: #103647;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 5px;
+    
+    .rodape {
+    margin: 10px 0 0 0;
+    
+    }
+    
+    }
+    
+    h6 {
+    font-size: 14px;
+    font-family: "Inter" sans-serif;
+    }
+    
+    @media screen and (max-width: 768px) {
+    main {
+    display: block;
+    background-image: none;
+    margin: 2em 2em;
+    }
+    
+    body {
+    background-image: radial-gradient(circle, #0b2632 80%, #737b86 50%);
+    }
+    
+    .text-area {
+    width: 60vw;
+    }
+    
+    .mensagem {
+    width: 60vw;
+    }
+    
+    .botoes {
+    width: 60vw;
+    display: block;
+    align-items: start;
+    justify-items: center;
+    }
+    
+    
+    
+    }
